@@ -9,14 +9,14 @@ import SmallCard from '../components/SmallCard'
 
 export default function Home({ exploreData, cardsData }) {
   return (
-    <div>
+    <div className="w-full">
       <Head>
         <title>Airbnb clone </title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header/>
       <Banner/>
-      <main className="max-w-7xl mx-auto px-8 sm:16">
+      <main className="w-full mx-auto px-8 sm:16">
           <section className="pt-6">
               <h2 className="text-4xl font-semibold pb-5 pt-6"> Explore Nearby</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3">
